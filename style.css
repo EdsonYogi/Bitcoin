@@ -1,0 +1,72 @@
+body {
+  background-color: darkgray;
+}
+
+section {
+  width: 850px;
+  height: auto;
+  margin: 50px auto;
+  background-color: rgb(230, 230, 230);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+
+.moeda {
+  background-color: white;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  height: 300px;
+  
+}
+
+.moeda label {
+  display: block;
+  font-size: 20px;
+  font-weight: bolder;
+  width: 160px;
+}
+
+.moeda select {
+  margin: 20px 0;
+  font-size: 20px;
+  padding: 5px 10px;
+  font-weight: bolder;
+}
+
+.moeda button {
+  width: 100px;
+  font-size: 15px;
+  padding: 5px 10px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.resultado {
+  background-color: white;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.resultado p {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+#listaValores {
+  display: block;
+  width: 200px;
+  height: 340px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bolder;
+}
